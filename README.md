@@ -6,7 +6,7 @@ Test First Ruby -- RSpec 3 Edition
 1. Clone this repo as usual
 2. On your local machine, `cd` into the root folder of this repo in your terminal
 3. run `bundle install` to install all the gems this project needs.
-4. Make a git branch, backend-3-lesson-5 and do the coding for these exercises in that branch.
+4. Make a git branch called testfirst-lesson and do the coding for these exercises in that branch.
 
 ### Getting started with the exercises
 
