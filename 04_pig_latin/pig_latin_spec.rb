@@ -36,11 +36,6 @@ describe "#translate" do
     expect(s).to eq("errychay")
   end
 
-  it "translates two words" do
-    s = translate("eat pie")
-    expect(s).to eq("eatay iepay")
-  end
-
   it "translates a word beginning with three consonants" do
     expect(translate("three")).to eq("eethray")
   end
@@ -58,6 +53,11 @@ describe "#translate" do
   it "counts 'qu' as a consonant even when it's preceded by a consonant" do
     s = translate("square")
     expect(s).to eq("aresquay")
+  end
+  
+  it "translates two words" do
+    s = translate("eat pie")
+    expect(s).to eq("eatay iepay")
   end
 
   it "translates many words" do
